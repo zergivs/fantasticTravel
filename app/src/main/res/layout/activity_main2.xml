@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+
+        <!-- Set the border color and width -->
+        <stroke
+            android:width="8dpdp"
+            android:color="#0834FB"/>
+
+        <!-- Set the background color -->
+        <solid android:color="@color/button_background"/>
+
+        <!-- Set the corner radius -->
+        <corners android:radius="12dpdp"/>
+
+    </shape>
+
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="380dp"
+        android:layout_height="127dp"
+        android:background="#80000000"
+        android:scaleType="fitXY"
+        android:text="Westeros"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        app:srcCompat="@drawable/westeros" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="380dp"
+        android:layout_height="127dp"
+        android:background="#80000000"
+        android:scaleType="fitXY"
+        android:text="Middle Earth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374"
+        app:srcCompat="@drawable/middleearth" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="380dp"
+        android:layout_height="127dp"
+        android:background="#80000000"
+        android:scaleType="fitXY"
+        android:text="Narnia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637"
+        app:srcCompat="@drawable/narnia" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="380dp"
+        android:layout_height="127dp"
+        android:background="#80000000"
+        android:scaleType="fitXY"
+        android:text="hogwarts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107"
+        app:srcCompat="@drawable/Hogwarts" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

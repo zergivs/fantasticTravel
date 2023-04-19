@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/destinationImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Hogwarts"/>
+
+    <ImageView
+        android:id="@+id/destinationImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/middleearth"/>
+
+    <TextView
+        android:id="@+id/destinationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hogwarts"
+        android:textSize="18sp"
+        android:paddingStart="16dp"/>
+
+</LinearLayout>
+    idx.constraintlayout.widget.ConstraintLayout>
